@@ -1,82 +1,111 @@
 {
-      "coordi": [
+  "coordi":[
       {
-        "id":1,
-        "name": "Shubhankari Rai",
-        "image": "https://i.ibb.co/J24cyh6/Picture4.png",
-        "linkedin": "https://www.linkedin.com/in/shubhankari-rai-a16099211/"
+          "id":1,
+          "name":"Sourav Sharma",
+          "email":"mailto:souravsh21@iitk.ac.in",
+          "linkedin":"https://www.linkedin.com/in/sourav-sharma-15b4bb223/",
+          "image":"https://i.postimg.cc/nctLW86w/20230924-084508-01-02.jpg",
+          "facebook":"",
+          "Instagram":""
+  
       },
       {
-        "id":2,
-        "name": "Arka Roy",
-        "image": "https://i.ibb.co/fnNC23J/Picture6.jpg",
-        "linkedin": "https://www.linkedin.com/in/arka-roy-b5b983203/"
+          "id":2,
+          "name":"Suryansh Gaur",
+          "email":"mailto:suryanshg21@iitk.ac.in",
+          "linkedin":"https://www.linkedin.com/in/suryansh-gaur-4310741a0",
+          "image":"https://i.postimg.cc/VsJjKQ9g/Suryansh-Gaur.jpg",
+          "facebook":"https://www.facebook.com/Wolwerinohalloweeno/",
+          "Instagram":"https://www.instagram.com/suryanshgaur962/"
       }
-    ],
-    "manager":[
+  ],
+  "manager":[
       {
-        "id":3,
-        "name": "Nishithaarsh Umrao",
-        "image": "https://i.postimg.cc/VLY8M965/751-AB082-3-B5-C-470-F-A15-B-8-D5-CF87-DB654-Nishithaarsh-Umrao.jpg",
-        "linkedin": "https://www.linkedin.com/in/nishithaarsh-umrao-7ab731210/",
-        "vertical": "Manager, Policy Research"
+          "id":1,
+          "name":"Shubham Aryan ",
+          "email":"mailto:shubham21@iitk.ac.in",
+          "vertical":"Finance and Marketing",
+          "linkedin":"https://www.linkedin.com/mwlite/in/shubham-aryan-93603623a",
+          "image":"https://i.postimg.cc/m2xFVcgZ/Shubam-Aryan.jpg",
+          "facebook":"",
+          "Instagram":"https://www.instagram.com/shubham_aryan161803/"
+  
       },
       {
-        "id":4,
-        "name": "Prem Milind Gujrathi",
-        "image": "https://i.ibb.co/n6dQT4S/Picture5.jpg",
-        "linkedin": "https://www.linkedin.com/in/premmilindgujrathi/",
-        "vertical": "Manager, Policy Research"
+          "id":3,
+          "name":"Ajay chouhan ",
+          "email":"mailto:ajaych21@iitk.ac.in",
+          "vertical":"Design",
+          "linkedin":"https://www.linkedin.com/in/ajay-chouhan-68a0a6233",
+          "image":"https://i.postimg.cc/wBNCXbfj/Ajay-Chouhan.jpg",
+          "facebook":"",
+          "Instagram":""
       },
       {
-        "id":5,
-        "name": "Sahil Aggarwal",
-        "image": "https://i.ibb.co/Br7RD58/Picture3.jpg",
-        "linkedin": "https://www.linkedin.com/in/sahil-aggarwal-a3a348212",
-        "vertical": "Manager, Events"
+          "id":4,
+          "name":"Ayush Yadav",
+          "email":"mailto:ayushy21@iitk.ac.in",
+          "vertical":"Design",
+          "linkedin":"https://www.linkedin.com/in/ayush-yadav-617866269/",
+          "image":"https://i.postimg.cc/L8tkjtkM/Ayush-Yadav.png",
+          "facebook":"https://www.facebook.com/profile.php?id=100075259240546",
+          "Instagram":"https://www.instagram.com/ayussssshhhhhhh/"
       },
       {
-        "id":6,
-        "name": "Parul Singh",
-        "image": "https://i.postimg.cc/hjQKhK2n/Screenshot-211.png",
-        "linkedin": "https://www.linkedin.com/in/parulsingh302001/",
-        "vertical": "Manager, Events"
+          "id":5,
+          "name" : "Siddharth Garg ",
+          "email":"mailto:siddharthg21@iitk.ac.in",
+          "vertical":"Policy Research",
+          "linkedin":"https://www.linkedin.com/in/siddharth-garg-080534223",
+          "image":"https://i.postimg.cc/rFSg92cb/Siddharth-Garg.jpg",
+          "facebook":"",
+          "Instagram":""
       },
       {
-        "id":7,
-        "name": "Kanhaiya Kumar",
-        "image": "https://i.postimg.cc/tTC3WmL2/FB-IMG-1656994222212-Kanhaiya-Kumar.jpg",
-        "linkedin": "https://www.linkedin.com/in/kanhaiya-kumar-3799b11ba/",
-        "vertical": "Manager, Finance and Marketing"
+          "id":6,
+          "name":"Manuja Pandey ",
+          "email":"mailto:manujap21@iitk.ac.in",
+          "vertical":"Policy Research",
+          "linkedin":"https://www.linkedin.com/in/manuja-pandey-095b26241",
+          "image":"https://i.postimg.cc/50hqwnrb/Manuja-Pandey.png",
+          "facebook":"",
+          "Instagram":"https://www.instagram.com/manujaa08/"
       },
       {
-        "id":8,
-        "name": "Ayush Raj",
-        "image": "https://i.postimg.cc/vZtXn948/IMG-20201212-200052-Ayush-Raj.jpg",
-        "linkedin": "https://www.linkedin.com/in/awesomeraaz/",
-        "vertical": "Manager, Design"
+          "id":7,
+          "name":"Muskan Gautam ",
+          "email":"mailto:muskang21@iitk.ac.in",
+          "vertical":"Events",
+          "linkedin":"https://www.linkedin.com/in/muskan-gautam-72b5b1242/",
+          "image":"https://i.postimg.cc/vHLLV7tw/Muskan-Gautam.jpg",
+          "facebook":"",
+          "Instagram":"https://www.instagram.com/muskan22_0303/"
       },
+      
       {
-        "id":9,
-        "name": "Aditya Sharma",
-        "image": "https://i.postimg.cc/xC4zHjG1/meh-Aditya-Sharma.jpg",
-        "linkedin": "www.google.com",
-        "vertical": "Manager, Design"
+          "id":8,
+          "name":"Shishir ",
+          "email":"mailto:shishir21@iitk.ac.in",
+          "vertical":"Events",
+          "linkedin":"https://www.linkedin.com/in/shishir-347072228",
+          "image":"https://i.postimg.cc/B6K2Q2ny/Shishir.jpg",
+          "facebook":"",
+          "Instagram":""
       },
+      
       {
-        "id":10,
-        "name": "Suryansh Yadav",
-        "image": "https://i.postimg.cc/DZpgC4KZ/WIN-20210908-20-44-55-Pro.jpg",
-        "linkedin": "https://www.linkedin.com/in/suryansh-y-96704211b/",
-        "vertical": "Manager, Web"
-      },
-      {
-        "id":11,
-        "name": "Udvas Basak",
-        "image": "https://i.ibb.co/9VmZhYb/Picture1.png",
-        "linkedin": "https://www.linkedin.com/in/udvas-basak-8679-ion/",
-        "vertical": "Manager, Web"
+          "id":9,
+          "name":"Arpit Kaithwar ",
+          "email":"mailto:akaithwar21@iitk.ac.in",
+          "vertical":"Web",
+          "linkedin":"http://www.linkedin.com/in/arpit-kaithwar-ak83035",
+          "image":"https://i.postimg.cc/ZKTvXGpX/Arpit-Kaithwar.png",
+          "facebook":"https://www.facebook.com/profile.php?id=100075288250644",
+          "Instagram":"https://www.instagram.com/arpit_kaithwar_/"
       }
-    ]
+  ]
   }
+  
+  
   
