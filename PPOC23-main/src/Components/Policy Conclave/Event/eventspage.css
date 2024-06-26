@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+
+.event {
+background-image:url("https://i.postimg.cc/jSdrmZx3/page.jpg");
+
+background-size: 100% 100%; 
+background-repeat:no-repeat ;
+}
+  
+.event .background-image1{
+
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+
+.containerbox1 {
+    /* transform: translateY(50%); */
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexbox3{
+    margin-top: 4%;
+}
+
+.content {
+    flex: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading1 {
+    color: #000000;
+    text-decoration: underline;
+    font-size: xxx-large;
+    font-family: 'Macondo', cursive;
+}
+
+.para {
+    margin: 1rem;
+    color: #454545;
+    font-weight: 800;
+    font-family: 'Macondo', cursive;
+    margin-bottom: 30px;
+    font-size: larger;
+
+}
+
+.image1 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.register-button {
+    display: block;
+    width: 250px;
+    padding: 5px 20px;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2B4262;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Macondo', cursive;
+    font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .flexbox3{
+      margin-top: 15%;
+    }
+    .para{
+        margin:1.5rem;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .register-button{
+        margin-top: 7%;
+    }
+    .event{
+        background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+      }
+      .heading1{
+        color: #fff;
+        margin-top: 10%;
+      }
+      .para{
+        color: #ffff9e;
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .image1{
+        margin-bottom: 0px;
+      }
+      .register-button{
+        background-color: #fff;
+        color: #19283d;
+        margin-top: 30px;
+      }
+  
+  }
+
+  /* Media query for screens with a maximum width of 767 pixels (mobile) */
+  @media only screen and (max-width: 767px) {
+    .flexbox3{
+        margin-top: 18%;
+      }
+      .para{
+          
+          margin-top: 5%;
+          margin-bottom: 7%;
+          font-size: medium;
+          font-weight: 400;
+      }
+      .register-button{
+          margin-top: 3%;
+          width: 200px;
+      }
+      .event{
+        background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+      }
+  }

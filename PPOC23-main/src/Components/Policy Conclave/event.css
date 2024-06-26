@@ -1,0 +1,188 @@
+.event1 {
+  background-image: url('https://i.postimg.cc/jSdrmZx3/page.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+
+}
+
+.event1 .background-image1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.flexbox1 {
+  overflow: hidden;
+}
+
+.eventshead {
+  color: #000000;
+  font-size: xxx-large;
+  font-family: 'Macondo', cursive;
+  margin-top: 3.5%;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flexbox1 .flex-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexbox1 .flex-card-listitem {
+  display:flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+.flexbox1 .flex-card-listitem:hover{
+  transform: scale(1.05);
+}
+
+.flexbox1 .flex-card {
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-card-list li {
+  width: 17%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* margin-bottom: 1em; */
+}
+.flexbox1 .flex-card-content {
+  display:flex;
+  flex:1 0 auto; 
+  flex-direction:column;
+}
+.flexbox1 .flex-card-content p {
+  flex:1 0 auto;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex-card-button {
+  padding: 7px 5px;
+    background-color: #492405;
+    color: white;
+    /* margin: 10px 0; */
+    border-radius: 10px;
+    font-family: 'Macondo Swash Caps', cursive;
+    text-decoration: none;
+  text-align: center;
+}
+.flex-card-button:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #331a06;
+color: #ffffff;}
+.flex-card-image img{
+    width:100%;
+    height:98%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-card-heading{
+    
+    font-family: 'Macondo', cursive;
+    font-size: xx-large;
+    text-align: center;
+    color:#202124;
+    margin-bottom:5px;
+}
+
+.credit {
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #202124;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .flexbox1 .flex-card {
+    flex-direction: column;
+  }
+  .flexbox1 .flex-card-listitem {
+    flex: 0 0 calc(43% - 55px); /* Adjust the width as needed for tablet */
+    border-radius: 0px;
+  }
+  .eventshead{
+    margin-top: 20%;
+    color: #ffffff;
+
+  }
+  .flex-card-image{
+    width: 100%;
+  }
+  .flex-card-image img{
+    border-radius: 0px;
+  }
+  .flex-card-button{
+    border-radius: 0px;
+  }
+  .flex-card-heading{
+    margin-top: 5px;
+    font-size: large;
+  }
+  .eventshead{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .event1{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+  .flex-card-list li {
+    
+    margin-bottom: 4em;
+    /* margin-bottom: 1em; */
+  }
+  .flex-card-button{
+    font-size: x-large;
+    background-color: #ffffff;
+    color: #1c2b42;
+    font-weight: 800;
+  }
+}
+
+/* Media query for screens with a maximum width of 767 pixels (mobile) */
+@media only screen and (max-width: 767px) {
+ 
+  .eventshead{
+    margin-top: 12%;
+    color: #ffffff;
+
+  }
+  .flexbox1 .flex-card-list {
+    display: block;
+   
+  }
+  .flexbox1{
+    height: 85vh;
+    overflow: scroll;  }
+  .event1{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+
+  
+  .flex-card-list li {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+ 
+
+}

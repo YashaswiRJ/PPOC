@@ -1,0 +1,82 @@
+{
+      "coordi": [
+      {
+        "id":1,
+        "name": "Shubhankari Rai",
+        "image": "https://i.ibb.co/J24cyh6/Picture4.png",
+        "linkedin": "https://www.linkedin.com/in/shubhankari-rai-a16099211/"
+      },
+      {
+        "id":2,
+        "name": "Arka Roy",
+        "image": "https://i.ibb.co/fnNC23J/Picture6.jpg",
+        "linkedin": "https://www.linkedin.com/in/arka-roy-b5b983203/"
+      }
+    ],
+    "manager":[
+      {
+        "id":3,
+        "name": "Nishithaarsh Umrao",
+        "image": "https://i.postimg.cc/VLY8M965/751-AB082-3-B5-C-470-F-A15-B-8-D5-CF87-DB654-Nishithaarsh-Umrao.jpg",
+        "linkedin": "https://www.linkedin.com/in/nishithaarsh-umrao-7ab731210/",
+        "vertical": "Manager, Policy Research"
+      },
+      {
+        "id":4,
+        "name": "Prem Milind Gujrathi",
+        "image": "https://i.ibb.co/n6dQT4S/Picture5.jpg",
+        "linkedin": "https://www.linkedin.com/in/premmilindgujrathi/",
+        "vertical": "Manager, Policy Research"
+      },
+      {
+        "id":5,
+        "name": "Sahil Aggarwal",
+        "image": "https://i.ibb.co/Br7RD58/Picture3.jpg",
+        "linkedin": "https://www.linkedin.com/in/sahil-aggarwal-a3a348212",
+        "vertical": "Manager, Events"
+      },
+      {
+        "id":6,
+        "name": "Parul Singh",
+        "image": "https://i.postimg.cc/hjQKhK2n/Screenshot-211.png",
+        "linkedin": "https://www.linkedin.com/in/parulsingh302001/",
+        "vertical": "Manager, Events"
+      },
+      {
+        "id":7,
+        "name": "Kanhaiya Kumar",
+        "image": "https://i.postimg.cc/tTC3WmL2/FB-IMG-1656994222212-Kanhaiya-Kumar.jpg",
+        "linkedin": "https://www.linkedin.com/in/kanhaiya-kumar-3799b11ba/",
+        "vertical": "Manager, Finance and Marketing"
+      },
+      {
+        "id":8,
+        "name": "Ayush Raj",
+        "image": "https://i.postimg.cc/vZtXn948/IMG-20201212-200052-Ayush-Raj.jpg",
+        "linkedin": "https://www.linkedin.com/in/awesomeraaz/",
+        "vertical": "Manager, Design"
+      },
+      {
+        "id":9,
+        "name": "Aditya Sharma",
+        "image": "https://i.postimg.cc/xC4zHjG1/meh-Aditya-Sharma.jpg",
+        "linkedin": "www.google.com",
+        "vertical": "Manager, Design"
+      },
+      {
+        "id":10,
+        "name": "Suryansh Yadav",
+        "image": "https://i.postimg.cc/DZpgC4KZ/WIN-20210908-20-44-55-Pro.jpg",
+        "linkedin": "https://www.linkedin.com/in/suryansh-y-96704211b/",
+        "vertical": "Manager, Web"
+      },
+      {
+        "id":11,
+        "name": "Udvas Basak",
+        "image": "https://i.ibb.co/9VmZhYb/Picture1.png",
+        "linkedin": "https://www.linkedin.com/in/udvas-basak-8679-ion/",
+        "vertical": "Manager, Web"
+      }
+    ]
+  }
+  

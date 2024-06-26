@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+.pimg{
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+.phead{
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 2.2em;
+  text-decoration: underline;
+}
+.psection {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+  
+.pevent {
+  background-image: url('https://i.postimg.cc/jSdrmZx3/page.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+
+}
+
+.pevent .background-image1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+
+.phead {
+  color: #000000;
+  font-size: xxx-large;
+  font-family: 'Macondo', cursive;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+
+  .pcontent {
+    
+    margin: 10px auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.2s ease;
+    border-radius: 15px;
+  }
+
+  .pcontent:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .pcontent p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 35px;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Macondo Swash Caps', cursive;
+
+  }
+  .pcontent img{
+    min-width: 210px;
+    max-width: 210px;
+    max-height: 150px;
+    border: 5px solid #CBC97B;
+    border-style:double;
+  }
+
+  .pwhat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .whatcard{
+    width: 34%;
+    transition: 0.4s ease;
+  }
+.ptext h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: xx-large;
+}
+  .whatcard:hover{
+    transform: scale(1.05);
+  }
+  .whatcard img{
+    transform: translate(0%, 20%);
+    width: 70%;
+  }
+
+  .ptext{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Macondo Swash Caps', cursive;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .ptext h3{
+    padding-top: 45px;
+    margin: 0;
+  }
+  .ptext p{
+    margin: 12px 5px;
+    text-align: justify;
+    font-size: large;
+    font-weight: 400;
+  }
+
+  .ptext a{
+    padding: 10px 18px;
+    background-color: #492405;
+    color: white;
+    margin: 10px 0;
+    border-radius: 50px;
+    text-align: center;
+   
+  }
+
+  .ptext a:hover{
+    background-color: #331a06;
+  }
+
+  .policy-conclave-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: transform 0.8s ease-in-out;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.section-hidden {
+  transform: rotateY(-180deg);
+}
+
+.section-visible {
+  transform: rotateY(0);
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  
+  .phead{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 37px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 600;
+    color: #fff;
+  }
+  .pevent{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+  .pcontent{
+    max-width: 85%;
+    margin-top: 0px;
+  }
+  .ptext p, .pcontent p{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .whatcard img{
+    transform: translate(0%, 0%);
+    border: 8px solid #CBC97B;
+    border-style:double;
+    width:100%;
+    margin-left: 0%;
+  }
+  .ptext{
+    background-color:#CBC97B ;
+    border-radius: 0%;
+    height: max-content;
+  }
+  .ptext p{
+    color: #000000;
+  }
+  .ptext h3{
+    padding-top:0px;
+  }
+  .pwhat{
+    align-items: baseline;
+  }
+  .ptext a{
+    background-color: #1C2B42;
+  }
+}
+
+/* Media query for screens with a maximum width of 767 pixels (mobile) */
+@media only screen and (max-width: 767px) {
+  .phead{
+    margin-top: 12%;
+    font-size: 37px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  
+
+  
+  .pevent{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+
+
+  .pcontent{
+    max-width: 80%;
+    flex-direction: column;
+    margin: 15px auto;
+    margin-bottom: -9%;
+  }
+  .pcontent img{
+    min-width: 50%;
+    max-width: 50%;
+    margin-left: 25%;
+  }
+  .pcontent p{
+    color: #ffffff;
+  }
+  .phead{
+    font-size:25px;
+    margin-top: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .flex-dir{
+    flex-direction: column-reverse !important;
+  }
+  .pwhat{
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 20px 0px;
+  }
+  .whatcard{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+  }
+  .pcontent p {
+    font-size: 14px;
+    margin: 8px 10px;
+  }
+  .ptext p, .pcontent p{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .whatcard img{
+    transform: translate(0%, 0%);
+    border: 8px solid #CBC97B;
+    border-style:double;
+    width:100%;
+    margin-left: 0%;
+  }
+  .ptext{
+    background-color:#CBC97B ;
+    border-radius: 0%;
+    height: max-content;
+  }
+  .pcontent p{
+    color: #ffffff;
+    font-size: medium;
+    height: 20vh;
+  overflow: auto;
+
+  }
+  .ptext p{
+    color: #000000;
+    font-size: large;}
+ 
+  .ptext h3{
+    padding-top:0px;
+    font-size: x-large;
+  }
+  .pwhat{
+    height: 80vh;
+    overflow: auto;
+  }
+  .ptext a{
+    background-color: #1C2B42;
+  }
+
+}
+
+
+  
+  
+  
+  
+  

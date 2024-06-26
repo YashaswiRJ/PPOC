@@ -1,0 +1,52 @@
+.policy-wrapper {
+  background: #00091b;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  padding-top: 14rem;
+}
+
+.policy-wrapper h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.policy-wrapper .dot {
+  color: #4febfe;
+}
+
+.policy-wrapper p {
+  text-align: center;
+  margin: 18px;
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+}
+
+.policy-wrapper .icons {
+  text-align: center;
+}
+
+.policy-wrapper .icons i {
+  color: #00091b;
+  background: #fff;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+}
+
+.policy-wrapper .icons i:hover,
+.policy-wrapper .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+}

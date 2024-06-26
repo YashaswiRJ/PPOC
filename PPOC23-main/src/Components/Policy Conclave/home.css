@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+/* components/Home.css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* components/Home.css */
+/* components/Home.css */
+/* components/Home.css */
+.home {
+    overflow: hidden;
+    overflow-x: hidden;
+
+  }
+  
+  .background-image {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set the text color to contrast with the background */
+    position: relative;
+  }
+  
+  /* Add styles for the second section as needed */
+  .background-image:nth-child(2) {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .vertical-align-container {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Macondo', cursive;
+    font-size: 3.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .left-aligned,
+  .right-aligned {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .right-aligned {
+    text-align: right;
+    padding-right: 2rem;
+}
+.left-aligned{
+    padding-left: 4rem;
+    text-align: left;
+}
+  
+/* Media Queries for different screen widths */
+@media (max-width: 767px) {
+  .background-image:nth-child(1) {
+      background-image: url('https://i.postimg.cc/25Lw52Wz/Rectangle-11.png');
+  }
+
+  .background-image:nth-child(2) {
+      background-image: url('https://i.postimg.cc/qv3hhY1Z/Rectangle-12.png');
+  }
+  .vertical-align-container {
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+
+.left-aligned,
+.right-aligned {
+    text-align: center;
+}
+
+.right-aligned {
+    padding-right: 0rem;
+    padding-bottom: 10rem;
+}
+
+.left-aligned {
+    padding-left: 0rem;
+    padding-top: 10rem;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .background-image:nth-child(1) {
+      background-image: url('https://i.postimg.cc/c4jtJZBn/ef37325830401d5fbdc3cec21a3bbad2.png');
+  }
+
+  .background-image:nth-child(2) {
+      background-image: url('https://i.postimg.cc/vTKTDLfs/3bd9305323493e458c68adb8fb9eaf2e.png');
+  }
+  .vertical-align-container {
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+
+.left-aligned,
+.right-aligned {
+    text-align: center;
+}
+
+.right-aligned {
+    padding-right: 0rem;
+    padding-bottom: 10rem;
+}
+
+.left-aligned {
+    padding-left: 0rem;
+    padding-top: 10rem;
+}
+}
+
+@media (min-width: 1024px) {
+  .background-image:nth-child(1) {
+      background-image: url('https://i.postimg.cc/FHJzjJGL/conclave.pngg');
+  }
+
+  .background-image:nth-child(2) {
+      background-image: url('https://i.postimg.cc/NMx5KqDC/clock.jpg');
+  }
+}

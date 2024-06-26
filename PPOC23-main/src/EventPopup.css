@@ -1,0 +1,213 @@
+/* .event-popup-content {
+    background-image: url('../public/conclave.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+  } */
+  /* EventPopup.css */
+
+/* EventPopup.css */
+
+/* Style for the entire modal content */
+/* .event-popup-content {
+    display: flex;
+  }
+  
+  /* Style for the left section (image background) */
+  /* .event-popup-content > div:first-child {
+    flex: 5;
+    padding-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/conclave.jpg'); /* Adjust the path to your image */
+  
+  
+  /* Style for the right section (text content) */
+  /*.event-popup-content > div:last-child {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #274561;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a2b3c;
+  }
+   */ 
+
+  /* EventPopup.css */
+
+  .event-popup-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* background: white;
+    border: 1px solid #ccc; */
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    /* padding: 10px; */
+    width: 80%;   
+    height: 90%;      
+  }
+  
+  .event-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  .event-popup-content {
+    /* position: relative; */
+    flex: 5;
+    display: flex;
+    background-image: url(../public/try3.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(25px);
+  }
+  .text-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(60px);
+  }
+/*   
+  .left-section {
+    flex: 20;
+    padding-right: 20px;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+  }
+  .popup-image {
+    max-width: 65%; 
+    max-height: 65%;
+    height: auto;  
+    display: block;  
+    margin: 0 auto;  
+  }
+  .right-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  /* Add more styling as needed */
+  /* h2 {
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-align: center;
+  } */ 
+  /* h2{
+    font-family: Aprila;
+    color: #341e0b;
+  } */
+  
+  
+  /* button {
+    background-color: #274561;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a2b3c;
+  }  */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #999;
+  }
+  
+  .close-button span {
+    display: block;
+    width: 28px;
+    height: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .text-content a h2 {
+    text-decoration: none; /* Remove the underline */
+    font-family: 'Macondo Swash Caps', cursive;
+    color: #492405;
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  
+  .text-content a:hover h2 {
+    transform: scale(1.2);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .event-popup-content {
+      background-size: 100% 100%;
+      
+    }
+    .event-popup-content {
+      height: 40vh;
+    }
+    .event-popup-modal {
+      left: 39%;
+      height: 55%;
+    }
+    .event-popup-content{
+      transform: translate(7%,20px);
+    }
+  
+  }
+  @media screen and (max-width: 720px) {
+    .event-popup-modal {
+      left: 39%;
+      height: 55%;
+    }
+    .event-popup-content {
+      height: 28vh;
+    }
+    .text-content{
+      transform: translateY(20px);
+    }
+    .text-content a h2 {
+      margin-left: 8px;
+      font-size: 18px;
+    }
+    .event-popup-content {
+      background-size: 100% 100%;
+      
+    }
+
+  }

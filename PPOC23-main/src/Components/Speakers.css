@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.speaker-image{
+    width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+.sliders{
+    width: 86%;
+  height: auto;
+  border-radius: 85px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.813rem;
+}
+.speaker-boxs{
+    position:relative;
+	overflow: hidden;
+    border-radius: 12%;
+    margin: 1.2rem;
+    box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
+    padding: 1.5rem 0rem;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.speaker-boxs:hover{
+    background-image: linear-gradient(to right, #3c70a4 0%, #64b2cd 100%); 
+    cursor: pointer;
+}

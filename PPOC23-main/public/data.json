@@ -1,0 +1,122 @@
+{
+    
+"coordi":[
+    {
+        "id":1,
+        "name":"Sourav Sharma",
+        "email":"souravsh21@iitk.ac.in",
+        "vertical":"Overall Coordinator",
+        "linkedin":"https://www.linkedin.com/in/sourav-sharma-15b4bb223/",
+        "facebook":"",
+        "insta":"",
+        "image":""
+
+
+    },
+    {
+        "id":2,
+        "name":"Suryansh Gaur",
+        "email":"suryanshg21@iitk.ac.in",
+        "vertical":"Overall Coordinator",
+        "linkedin":"https://www.linkedin.com/in/suryansh-gaur-4310741a0",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    }
+],
+"manager":[
+    {
+        "id":1,
+        "name":"Shubham Aryan ",
+        "email":"shubham21@iitk.ac.in",
+        "vertical":"Finance and Marketing",
+        "linkedin":"https://www.linkedin.com/mwlite/in/shubham-aryan-93603623a",
+        "facebook":"",
+        "insta":"",
+        "image":""
+
+    },
+    {
+        "id":2,
+        "name":"Shreyansh Kesharwani ",
+        "email":"shreyanshk21@iitk.ac.in",
+        "vertical":"Finance and Marketing",
+        "linkedin":"https://www.linkedin.com/in/shreyansh-kesharwani-6613311a6",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    {
+        "id":3,
+        "name":"Ajay chouhan ",
+        "email":"ajaych21@iitk.ac.in",
+        "vertical":"Design",
+        "linkedin":"https://www.linkedin.com/in/ajay-chouhan-68a0a6233",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    {
+        "id":4,
+        "name":"Ayush Yadav",
+        "email":"ayushy21@iitk.ac.in",
+        "vertical":"Design",
+        "linkedin":"https://www.linkedin.com/in/ayush-yadav-617866269/",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    {
+        "id":5,
+        "name" : "Siddharth Garg ",
+        "email":"siddharthg21@iitk.ac.in",
+        "vertical":"Policy Research",
+        "linkedin":"https://www.linkedin.com/in/siddharth-garg-080534223",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    {
+        "id":6,
+        "name":"Manuja Pandey ",
+        "email":"manujap21@iitk.ac.in",
+        "vertical":"Policy Research",
+        "linkedin":"https://www.linkedin.com/in/manuja-pandey-095b26241",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    {
+        "id":7,
+        "name":"Muskan Gautam ",
+        "email":"muskang21@iitk.ac.in",
+        "vertical":"Events",
+        "linkedin":"https://www.linkedin.com/in/muskan-gautam-72b5b1242/",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    
+    {
+        "id":8,
+        "name":"Shishir ",
+        "email":"shishir21@iitk.ac.in",
+        "vertical":"Events",
+        "linkedin":"https://www.linkedin.com/in/shishir-347072228",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    },
+    
+    {
+        "id":9,
+        "name":"Arpit Kaithwar ",
+        "email":"akaithwar21@iitk.ac.in",
+        "vertical":"Web",
+        "linkedin":"http://www.linkedin.com/in/arpit-kaithwar-ak83035",
+        "facebook":"",
+        "insta":"",
+        "image":""
+    }
+]
+}

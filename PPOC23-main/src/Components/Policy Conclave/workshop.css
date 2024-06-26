@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+
+* {
+}
+
+.psection{
+  overflow-x: hidden;
+
+}
+.flexbox2 {
+overflow: hidden;
+margin-top: 2%;
+}
+ 
+.workshop1 {
+  background-image: url('https://i.postimg.cc/jSdrmZx3/page.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+}
+
+.workshop1 .background-image1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.text-wrapper {
+  color: #492405;
+  font-family: "Macondo", cursive;
+  font-size: 22.3px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+}
+.overlap-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 36px;
+  position: relative;
+  width: 123px;
+}
+.read-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 36px;  
+  width: 125px;
+  align-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.workshophead {
+  color: #000000;
+  font-size: xxx-large;
+  font-family: 'Macondo', cursive;
+  margin-top: 6%;
+  text-decoration-line: underline;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flexbox2 .flex1-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexbox2 .flex1-card-listitem {
+  flex: 0 0 calc(50% - 100px); /* Adjust the width as needed */
+  margin: 0px 4%; /* Adjust the margin as needed */
+  background-image:url('https://i.postimg.cc/rmKf9H7m/Rectangle-5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  margin-bottom: 25px;
+  border: 15px solid #000000;
+  border-style: double  double groove double;
+  border-radius: 5px;
+  margin-bottom: 3em;
+}
+
+.flexbox2 .flex1-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.flex1-card-list li {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.flexbox2 .flex1-card-content {
+  justify-content: center;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.flexbox2 .flex1-card-content p {
+  flex: 1 0 auto;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex1-card-button {
+  text-align: center;
+  background: none;
+  text-decoration: none;
+  color: #22409b;
+  border-radius: 60px;
+}
+
+.flex1-card-button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.flex1-card-image {
+  width: 40%;
+  height: 100%;
+}
+
+.flex1-card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+ 
+}
+
+.flex1-card-heading {
+  text-align: center;
+  font-family: 'Macondo', cursive;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.credit {
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #202124;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  
+  .flexbox2 .flex1-card {
+    flex-direction: column;
+  }
+  .flexbox2 .flex1-card-listitem {
+    flex: 0 0 calc(50% - 20px); /* Adjust the width as needed for tablet */
+  }
+
+  .flex1-card-image{
+    width: 100%;
+  }
+  .flex1-card-heading{
+    margin-top: 5px;
+    font-size: xx-large;
+    color: #122f5e;
+  }
+
+
+  .overlap-group {
+    background-color: #122f5e;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+  }
+  .read-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 25px;  
+    width:95%;
+    align-self: center;
+    margin-bottom: 3%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .text-wrapper{
+    color: #fff;
+    margin-left: 32%;
+
+  }
+  .flexbox2 .flex1-card-listitem {
+    flex: 0 0 calc(50% - 25px); /* Adjust the width as needed for tablet */
+    margin-bottom: 2em;
+    background-image:url('https://i.postimg.cc/sg1YZWWP/ecae4b39c958c94e375804395f8bb725.png');
+    border: 15px solid #fff989;
+    border-style: double;
+    border-radius: 0px;
+  }
+  .workshophead{
+    margin-top: 10%;
+    color: #ffffff;
+  }
+
+  .workshop1{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+ 
+
+}
+
+/* Media query for screens with a maximum width of 767 pixels (mobile) */
+@media only screen and (max-width: 767px) {
+  .flexbox2 .flex1-card {
+    flex-direction: column;
+  }
+  .flexbox2 .flex1-card-listitem {
+    flex: 0 0 calc(50% - 60px); /* Adjust the width as needed for tablet */
+  }
+
+  .flex1-card-image{
+    width: 100%;
+  }
+  .flex1-card-heading{
+    font-size:28px;
+    color: #122f5e;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .flexbox2{
+    height: 84vh;
+    overflow: scroll;  }
+
+  .overlap-group {
+    background-color: #122f5e;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+  }
+  .read-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 25px;  
+    width:95%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .text-wrapper{
+    color: #fff;
+    margin-left: 22%;
+
+  }
+  .flexbox2 .flex1-card-listitem {
+    flex: 0 0 calc(75% - 35px); /* Adjust the width as needed for tablet */
+    margin-bottom: 1em;
+    background-image:url('https://i.postimg.cc/sg1YZWWP/ecae4b39c958c94e375804395f8bb725.png');
+    border: 15px solid #fff989;
+    border-style: double;
+    border-radius: 0px;
+  }
+  .workshophead{
+    margin-top: 10%;
+    color: #ffffff;
+  }
+
+  .workshop1{
+    background-image: url('https://i.postimg.cc/Y91Mscf8/b88ffe9e102f1c0cadd50ef65049cbb4.png');
+  }
+}

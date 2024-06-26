@@ -1,0 +1,23 @@
+/* components/Home.css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* components/Home.css */
+.home {
+   
+  overflow-x: hidden;
+
+    width: 100%;
+    height: auto;
+    background-image: url('https://i.postimg.cc/NMx5KqDC/clock.jpg'); /* Adjust the path based on your actual file structure */
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; Adjust the opacity as needed */
+  }
+  
+  h2 {
+    /* Additional styling for your content */
+  }
+  

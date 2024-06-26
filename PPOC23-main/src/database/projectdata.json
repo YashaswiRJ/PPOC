@@ -1,0 +1,39 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Guesstimating GDP",
+            "content": "This project was a meticulously planned and executed endeavor aimed at achieving a profound understanding of Gross Domestic Product (GDP) and employing advanced data analytics and machine learning techniques to predict India's GDP. It commences with an in-depth exploration of the complexities associated with GDP, followed by a rigorous analysis of historical data coupled with the comprehensive consideration of various influential factors from the past.",
+            "Read more": "/Guesstimating",
+            "image":"https://i.postimg.cc/BZL0xyZz/Guesstimating-GDP-img.png"
+        },
+        {
+            "id": 2,
+            "name": "Inside Out",
+            "content": "This project was a comprehensive examination of international ranking organizations, with a primary focus on understanding the internal mechanisms that underlie the creation of rankings based on a variety of parameters. The research involves a multi-faceted approach, encompassing the historical context, mission, values, methodology, data sources, and transparency of these organizations.",
+            "Read more": "/inside-out",
+            "image":"https://i.postimg.cc/q7yKhQh6/Inside-out.jpg"
+        },
+        {
+            "id": 3,
+            "name": "India’s Social Changes",
+            "content": "This project was focused on comprehensive exploration of the dynamic social landscape in India, with a focus on how societal changes have affected various segments of the population. It encompasses an in-depth examination of the nuanced transformations experienced by different demographic groups, including tribal communities, and the evolution of gender norms from a non binary perspective.",
+            "Read more": "/indias-social",
+            "image":"https://i.postimg.cc/Nf2jjFr5/Indias-social-changes.png"
+        },
+        {
+            "id": 4,
+            "name": "Tweet Decoder",
+            "content": "This project was focused on exploring the transformative potential of machine learning within the sphere of public policy. It revolves around the adaptive application of Natural Language Processing (NLP), a tool of artificial intelligence, to discern the polarity of tweets. The core goal of this project is to construct a model with the capability to precisely classify tweets into three distinct categories.",
+            "Read more": "/tweet-decoder",
+            "image":"https://i.postimg.cc/3R6Qsj19/Tweet-decoder-img.png"
+        },
+        {
+            "id": 5,
+            "name": "Diplobrats",
+            "content": "This project was based upon the theme of understanding International Relations and the history of different nations with respect to our country. It started with a brief study of nations in the context of their trade channels, economy, border management, peace, and harmony. We also dealt with understanding the functioning of organizations like NATO, WHO, SAARC, United Nations, G20, and many more. To come to a conclusion, we created an imaginary real-world scenario for mentees to draft in order to act upon it in an international event and debate about such global issues.",
+            "Read more": "/diplobrats",
+            "image":"https://i.postimg.cc/QMRV52ZM/Whats-App-Image-2023-10-28-at-9-21-40-PM.jpg"
+        }
+    ]
+}

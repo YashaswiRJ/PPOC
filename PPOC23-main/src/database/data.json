@@ -1,0 +1,111 @@
+{
+"coordi":[
+    {
+        "id":1,
+        "name":"Bhakti Sangvikar",
+        "email":"mailto:bhaktij22@iitk.ac.in",
+        "linkedin":"http://www.linkedin.com/in/bhakti-sangvikar",
+        "image":"./PhotoCTM/my pic - Bhakti Sangvikar.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/bhakti_js?igsh=ajd3ODF5cXlrdDFi"
+
+    }
+],
+"manager":[
+    {
+        "id":1,
+        "name":"Shikhar Chaudhary ",
+        "email":"mailto:shikharc22@iitk.ac.in",
+        "vertical":"Web Division",
+        "linkedin":"https://www.linkedin.com/in/shikhar-chaudhary-03bb61255/",
+        "image":"./PhotoCTM/Untitled - Shikhar Chaudhary.png",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/shikharr.r/"
+
+    },
+    {
+        "id":3,
+        "name":"Sunita kulariya ",
+        "email":"mailto:sunitakulriya6@gmail.com",
+        "vertical":"Finance",
+        "linkedin":"https://www.linkedin.com/in/sunita-kulariya-381135263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "image":"./PhotoCTM/IMG-20231230-WA0209~2 - sunita kulriya.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/kulariyasunita?igsh=MzJuNjlucWl2OGpw"
+    },
+    {
+        "id":4,
+        "name":"Archit Atrey ",
+        "email":"mailto:aarchit22@iitk.ac.in",
+        "vertical":"Finance and Marketing",
+        "linkedin":"https://www.linkedin.com/in/archit-atrey-0a6824269?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIpie%2BOPcSky9FYuI3dxYTg%3D%3D",
+        "image":"./PhotoCTM/IMG_20240503_182926_731 - Archit Atrey.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/arey_archit/"
+    },
+    {
+        "id":5,
+        "name" : "Aniket Shivhare ",
+        "email":"mailto:shivhare22@iitk.ac.in",
+        "vertical":"Policy Research",
+        "linkedin":"https://www.linkedin.com/in/aniket-shivhare-89241b174?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "image":"./PhotoCTM/Aniket - Aniket shivhare.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/nukul_shivhare?igsh=bWtkOGliYXMxMGhj"
+    },
+    {
+        "id":6,
+        "name":"Abhilasha  ",
+        "email":"mailto:abhilasha22@iitk.ac.in",
+        "vertical":"Design",
+        "linkedin":"https://www.linkedin.com/in/abhilasha-0144a524b/",
+        "image":"./PhotoCTM/WhatsApp Image 2024-05-30 at 23.17.41_ad2ba8fa - Abhilasha Yadav.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/ab.hilasha949/?hl=en"
+    },
+    {
+        "id":7,
+        "name":"Sumit Kumar ",
+        "email":"mailto:sumitkumar22@iitk.ac.in",
+        "vertical":"Events",
+        "linkedin":"https://www.linkedin.com/in/sumit-kumar-3734b7264",
+        "image":"./PhotoCTM/1717093365413 - Sumit.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/sumit_s49?igsh=dDJkdmR6cnA1Mjdn"
+    },
+    
+    {
+        "id":8,
+        "name":"Manvi Verma ",
+        "email":"mailto:manviv22@iitk.ac.in",
+        "vertical":"Events",
+        "linkedin":"http://www.linkedin.com/in/ manvi-verma-862177312",
+        "image":"./PhotoCTM/IMG_20240619_102141 - Manvi Verma.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/manvi_verma_49?igsh=c2ptZG4xMjdjcmh3"
+    },
+    
+    {
+        "id":9,
+        "name":"SHASWAT ",
+        "email":"mailto:shaswat22@iitk.ac.in",
+        "vertical":"Policy Research",
+        "linkedin":"https://www.linkedin.com/in/shaswat-a5b381255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "image":"./PhotoCTM/Screenshot_20240601_141619_Gallery - SHASWAT.jpg",
+        "facebook":"",
+        "Instagram":"https://www.instagram.com/sha._.swat_iit?igsh=MXkxcWU3a2Q0enhlMg=="
+    },
+    {
+        "id":10,
+        "name":"Tanya Kushwaha ",
+        "email":"mailto:tanyak22@iitk.ac.in",
+        "vertical":"Design",
+        "linkedin":"https://www.linkedin.com/in/tanya-kushwaha-2780a0250/",
+        "image":"./PhotoCTM/tanya - Tanya Kushwaha IITK.jpg",
+        "facebook":"",
+        "Instagram":""
+    }
+]
+}
+
+
